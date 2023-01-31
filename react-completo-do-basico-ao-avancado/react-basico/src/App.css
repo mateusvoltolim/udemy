@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7fafc;
+}
+
+.App {
+  padding: 10px 30px;
+}
+
+.NovoComentario {
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.NovoComentario h2 {
+  margin: 0;
+}
+
+.NovoComentario input,
+.NovoComentario textarea {
+  color: #4a5568;
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+.NovoComentario input {
+  width: 300px;
+}
+
+.NovoComentario textarea {
+  width: 100%;
+}
+
+.NovoComentario button {
+  background-color: #4299e1;
+  color: #fff;
+  font: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.NovoComentario button:hover {
+  background-color: #2b6cb0;
+}
